@@ -48,3 +48,32 @@
   opacity: 1;
   border: 2px solid #000;
 }
+/* tablet */
+@media (max-width: 768px) {
+  .slide-image {
+    max-height: 200px;
+  }
+  .prev-button,
+  .next-button {
+    font-size: 1.5rem;
+  }
+  .thumbnail {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* mobile */
+@media (max-width: 480px) {
+  .slide-image {
+    max-height: 150px;
+  }
+  .prev-button,
+  .next-button {
+    font-size: 1.2rem;
+  }
+  .thumbnail {
+    width: 30px;
+    height: 30px;
+  }
+}
